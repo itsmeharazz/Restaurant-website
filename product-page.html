@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Basilico restaurant</title>
+  <link rel="icon" href="./Image/logo-3.png">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg back nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="./Image/logo-3.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> Pizza</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Margherita cheese Pizza</a></li>
+                  <li><a class="dropdown-item" href="#">Vegetarian Delight Pizza</a></li>
+                  <li><a class="dropdown-item" href="#">BBQ Pizza</a></li>
+                  <li><a class="dropdown-item" href="#">Salad</a></li>
+                </ul>
+              </li>
+              <li><a class="dropdown-item" href="#">Vegetarian Delight Pizza</a></li>
+              <li><a class="dropdown-item" href="#">BBQ Pizza</a></li>
+              <li><a class="dropdown-item" href="#">Salad</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Teem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+
+        <div class="d-flex m-xl-3">
+          <button class="btn shop " type="submit">Shop now <i class="fa-solid fa-cart-shopping"></i></button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn shop" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Login your profile</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <input type="email" placeholder="Email">
+                  <input type="password" placeholder="Password">
+                  <button type="button" class="btn shop d-block">Login</button>
+                </div>
+                <p class="text-center">Contact us to register <a href="#">abcd@gmail.com</a></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- nav -->
+
+  <!-- shot-details -->
+  <section class="shot">
+    <div class="row container mx-md-auto d-lg-flex d-md-flex d-sm-block align-content-center py-5">
+      <div class="col-md-4 pro-cad m-s-3">
+        <div class="card ">
+          <a href="product-page.html"><img src="./Image/javier-molina-L99H7JKYPVY-unsplash.jpg" style="cursor: zoom-in;"
+              alt="varger"></a>
+        </div>
+      </div>
+      <div class="col-md-7 col-sm-4 pro-cad ms-3">
+        <div class="card d-block p-2 right">
+          <h2 class=" mb-3">Burger king</h2>
+          <div class="others d-flex justify-content-around px-2">
+            <a href="#"><i class="fa-solid fa-share"></i> Share this post</a>
+            <a href="#"><i class="fa-regular fa-message"></i> Ask</a>
+            <a href="#"><i class="fa-regular fa-heart"></i> Add Wishlist</a>
+          </div>
+          <div class="dami"></div>
+          <h4 class="my-4">M.R.P $30 <sub>/ 1 Piece</sub></h4>
+          <div class="shot-dis mx-md-auto d-lg-flex d-md-flex d-sm-block justify-content-between">
+            <img src="./Image/javier-molina-L99H7JKYPVY-unsplash.jpg" style="width: 6em; height: 5em;" alt="varger">
+            <h6 class="p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error illum dignissimos esse
+              itaque laudantium expedita!</h6>
+          </div>
+          <div class="shop-btn my-4 mx-md-auto d-lg-flex d-md-flex d-sm-block justify-content-between">
+            <button class="col-md-6 buy" type="submit">Buy Now</button>
+            <button class="col-md-6 buy" type="submit">Add Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- shot-details -->
+
+  <!-- details -->
+  <div class="details container">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus et tempora cumque. Nisi reiciendis facilis
+      beatae
+      veritatis possimus dolore maiores quam. Quis quas quia hic veritatis illum, exercitationem reiciendis consequuntur
+      consectetur odio aliquam perspiciatis quibusdam impedit repellendus facere odit doloribus, quos qui nisi ex
+      quaerat!
+      Soluta omnis sapiente, provident, perspiciatis incidunt ad enim facere veniam, quasi dolorem iste quo. Quia
+      molestias cumque dignissimos voluptatum sunt, earum temporibus omnis sapiente quisquam, rem, quam explicabo? Nobis
+      perferendis quae amet accusantium dicta quo eaque, nesciunt impedit itaque culpa. Aperiam eaque, unde fugit
+      aliquid
+      quaerat nesciunt blanditiis perferendis ipsam placeat laboriosam ratione quos voluptatem.</p>
+  </div>
+  <!-- details -->
+
+  <!-- peyment -->
+  <section class="peyment-sistam">
+    <div class="paywith d-lg-flex d-md-flex d-sm-block justify-content-between container">
+      <div class="cash d-flex">
+        <img src="./Image/Untitled__2_-removebg-preview.png" alt="cahs">
+        <p>Cash on Delivery</p>
+      </div>
+      <div class="pay d-flex">
+        <p>Pay with</p>
+        <img src="./Image/bkash.png" alt="bkash">
+        <img src="./Image/nogod.png" alt="nogod">
+        <img src="./Image/visa.png" alt="visa">
+      </div>
+    </div>
+  </section>
+  <!-- peyment -->
+
+  <!-- rank -->
+  <section class="renk container">
+    <p>We publish all review, good and bad, so that you feel confident in what you getting. Our team is here to
+      help and we offer a 5 day money-back guarantee. </p>
+    <div class="all-star">
+      <div class="star d-sm-block d-lg-flex">
+        <div class="5star">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <div class="metat-1 ">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+            style="width: 95%">95%</div>
+        </div>
+      </div>
+      <div class="star d-sm-block d-lg-flex">
+        <div class="5star">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <div class="metat-1">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+            style="width: 75%">75%</div>
+        </div>
+      </div>
+
+      <div class="star d-sm-block d-lg-flex">
+        <div class="5star">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <div class="metat-1">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+            style="width: 30%">30%</div>
+        </div>
+      </div>
+      <div class="star d-sm-block d-lg-flex">
+        <div class="5star">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <div class="metat-1">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+            style="width: 10%">10%</div>
+        </div>
+      </div>
+      <div class="star d-sm-block d-lg-flex">
+        <div class="5star">
+          <i class='bx bxs-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+          <i class='bx bx-star'></i>
+        </div>
+        <div class="metat-1">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+            style="width: 2%">2%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- rank -->
+
+  <!-- verified -->
+  <section>
+    <div class="verified container">
+      <div class="all-review">
+        <div class="customar d-lg-fax d-md-flex d-sm-flex justify-content-between">
+          <div class="customar-name">
+            <h3>Mary R. <span>Verified Buyer</span></h3>
+          </div>
+          <div class="customar-star plex">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </div>
+        </div>
+        <h2>AMAZING</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fuga quis aliquam, voluptatem provident quasi, nam autem odit eius veritatis non nesciunt officia repellendus inventore praesentium cupiditate velit assumenda ipsam! </p>
+        <div class="like">
+          <a href="#"><i class='bx bxs-like'> 2</i></a>
+          <a href="#"><i class='bx bxs-dislike'> 0</i></a>
+        </div>
+      </div>
+      <div class="all-review">
+        <div class="customar d-lg-fax d-md-flex d-sm-flex justify-content-between">
+          <div class="customar-name">
+            <h3>Mary R. <span>Verified Buyer</span></h3>
+          </div>
+          <div class="customar-star plex">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </div>
+        </div>
+        <h2>AMAZING</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fuga quis aliquam, voluptatem provident quasi, nam autem odit eius veritatis non nesciunt officia repellendus inventore praesentium cupiditate velit assumenda ipsam! </p>
+        <div class="like">
+          <a href="#"><i class='bx bxs-like'> 2</i></a>
+          <a href="#"><i class='bx bxs-dislike'> 0</i></a>
+        </div>
+      </div>
+      <div class="all-review">
+        <div class="customar d-lg-fax d-md-flex d-sm-flex justify-content-between">
+          <div class="customar-name">
+            <h3>Mary R. <span>Verified Buyer</span></h3>
+          </div>
+          <div class="customar-star plex">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </div>
+        </div>
+        <h2>AMAZING</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fuga quis aliquam, voluptatem provident quasi, nam autem odit eius veritatis non nesciunt officia repellendus inventore praesentium cupiditate velit assumenda ipsam! </p>
+        <div class="like">
+          <a href="#"><i class='bx bxs-like'> 2</i></a>
+          <a href="#"><i class='bx bxs-dislike'> 0</i></a>
+        </div>
+      </div>
+      <div class="all-review">
+        <div class="customar d-lg-fax d-md-flex d-sm-flex justify-content-between">
+          <div class="customar-name">
+            <h3>Mary R. <span>Verified Buyer</span></h3>
+          </div>
+          <div class="customar-star plex">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </div>
+        </div>
+        <h2>AMAZING</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fuga quis aliquam, voluptatem provident quasi, nam autem odit eius veritatis non nesciunt officia repellendus inventore praesentium cupiditate velit assumenda ipsam! </p>
+        <div class="like">
+          <a href="#"><i class='bx bxs-like'> 2</i></a>
+          <a href="#"><i class='bx bxs-dislike'> 0</i></a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- verified -->
+  <!-- gallery -->
+  <section class="offer">
+    <h2 class="text-center py-5">Food Gallery</h2>
+    <div class="item d-lg-flex d-md-flex d-sm-flex">
+      <button class="btn" type="button">Pizza</button>
+      <button class="btn active" type="button">Burger</button>
+      <button class="btn fs-sm-1" type="button">Fried Chechen</button>
+      <button class="btn" type="button">Soup</button>
+      <button class="btn" type="button">Chowmein</button>
+    </div>
+    <div class="row container mx-md-auto d-lg-flex d-md-flex d-sm-block">
+      <div class="col-md-3 cetagory">
+        <div class="card overflow-hidden">
+          <img src="./Image/louis-hansel-dphM2U1xq0U-unsplash.jpg" alt="varger">
+          <h2 class="text-center my-3"><a href="#">Meat Beef</a></h2>
+          <p class="px-3">It is a long established fact that a reader will be......</p>
+          <button class="btn" type="button">Price $20</button>
+          <i class='bx bx-heart p-3 text-right'></i>
+        </div>
+      </div>
+      <div class="col-md-3 cetagory">
+        <div class="card overflow-hidden">
+          <img src="./Image/louis-hansel-dphM2U1xq0U-unsplash.jpg" alt="varger">
+          <h2 class="text-center my-3"><a href="#">Meat Beef</a></h2>
+          <p class="px-3">It is a long established fact that a reader will be......</p>
+          <button class="btn" type="button">Price $20</button>
+          <i class='bx bx-heart p-3 text-right'></i>
+        </div>
+      </div>
+      <div class="col-md-3 cetagory">
+        <div class="card overflow-hidden">
+          <img src="./Image/louis-hansel-dphM2U1xq0U-unsplash.jpg" alt="varger">
+          <h2 class="text-center my-3"><a href="#">Meat Beef</a></h2>
+          <p class="px-3">It is a long established fact that a reader will be......</p>
+          <button class="btn" type="button">Price $20</button>
+          <i class='bx bx-heart p-3 text-right'></i>
+        </div>
+      </div>
+      <div class="col-md-3 cetagory">
+        <div class="card overflow-hidden">
+          <img src="./Image/louis-hansel-dphM2U1xq0U-unsplash.jpg" alt="varger">
+          <h2 class="text-center my-3"><a href="#">Meat Beef</a></h2>
+          <p class="px-3">It is a long established fact that a reader will be......</p>
+          <button class="btn" type="button">Price $20</button>
+          <i class='bx bx-heart p-3 text-right'></i>
+        </div>
+      </div>
+      
+
+      <button class=" view my-4">View all</button>
+    </div>
+  </section>
+  <!-- gallery -->
+
+
+
+  <!-- footer -->
+
+  <section class="footer">
+    <div class=" continar d-lg-fax d-md-flex">
+      <div class="col-md-4 p-5">
+        <div class="card p-4">
+          <img src="./Image/logo-2.png" alt="logo">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt obcaecati blanditiis consequuntur, quis
+            repellat illum.</p>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="card p-4">
+          <h3>Contact us</h3>
+          <p><i class="fa-solid fa-phone"></i> 01234-56789</p>
+          <p><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+          <h3>Contact us</h3>
+          <div class="social-media d-md-fax">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="card p-4">
+          <h3>Location <i class="fa-solid fa-location-dot"></i></h3>
+          <iframe src="https://www.google.com/maps/d/embed?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&hl=en_US&ehbc=2E312F"
+            width="100%" height="160"></iframe>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <p class="coppy text-center p-4">Meharazul Islam <i class="fa-regular fa-copyright"></i> Copyright set 2023</p>
+  <!-- footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

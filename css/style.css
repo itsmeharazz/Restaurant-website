@@ -1,0 +1,780 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Jacques Francois', serif;
+     font-family: 'Roboto', sans-serif;
+}
+
+:root {
+     --nav-bag: rgba(45, 102, 40, 0.35);
+     ;
+     --font-cool: #fff;
+     --off-bag: rgba(215, 243, 252, 0.71);
+     --team-bag: #2D6628;
+     --glarry: #D7F3FC;
+}
+
+/* nav */
+
+.back {
+     background-color: var(--nav-bag);
+     font-family: 'Roboto', sans-serif;
+}
+
+.nav a img {
+     width: 2.5em;
+     height: 2.5em;
+}
+
+.nav ul li a {
+     color: #000;
+     font-weight: 400;
+}
+
+#navbarSupportedContent ul li a:hover {
+     color: var(--team-bag);
+}
+
+
+.dropdown-menu li a {
+     color: #fff;
+}
+
+#navbarSupportedContent ul li .dropdown-menu ul li a:active {
+     color: #000;
+     background-color: var(--nav-bag);
+}
+
+.shop {
+     background-color: var(--team-bag);
+     color: #fff;
+     outline: none;
+     border: none;
+     margin-right: 0.5em;
+     font-size: 1em;
+}
+
+.shop:hover {
+     background-color: #388331;
+     color: #fff;
+}
+
+.modal-body input {
+     width: 100%;
+     height: 2.5em;
+     margin-bottom: 1em;
+     font-size: 1em;
+     padding: 0.5em;
+     outline: none;
+     border: 1px solid #d9d9d9;
+     border-radius: 0.4em;
+}
+
+.modal-body button {
+     width: 50%;
+     margin: 0 auto;
+}
+
+.modal-body button:active {
+     border: 1px solid var(--team-bag);
+}
+
+#exampleModal p {
+     color: #777;
+}
+
+#exampleModal p a {
+     text-decoration: none;
+     color: #000;
+}
+
+#exampleModal p a:hover {
+     color: var(--team-bag);
+}
+
+/* nav */
+
+/* cover */
+#carouselExampleFade .carousel-item img {
+     height: 100vh;
+}
+
+/* cover */
+
+/* offer */
+
+.offer {
+     width: 100%;
+     background-color: var(--off-bag);
+}
+
+.offer h2 {
+     font-family: 'Jacques Francois', serif;
+}
+
+.offer .card {
+     /* width: 13em; */
+     height: 15em;
+     margin-bottom: 1.5em;
+     border-radius: 0.5em;
+     position: relative;
+}
+
+.card a img {
+     width: 100%;
+     height: 15em;
+     border-radius: 0.5em;
+
+}
+
+.pro-cad p {
+     width: 3.5em;
+     background-color: #fff;
+     color: var(--team-bag);
+     border-radius: 50%;
+     text-align: center;
+     padding: 0.4em;
+     position: absolute;
+     top: -1em;
+     right: -1em;
+     font-size: 0.8em;
+}
+
+.pro-cad p span {
+     font-family: 'Jacques Francois', serif;
+}
+
+.row .view {
+     width: 8.5em;
+     height: 2.8em;
+     display: block;
+     margin-left: 60em;
+     justify-content: end;
+     background-color: var(--team-bag);
+     color: #fff;
+     font-family: 'Jacques Francois', serif;
+     outline: none;
+     border: none;
+     border-radius: 1.5em 0;
+}
+
+/* offer */
+
+/* dishes */
+.dishes {
+     width: 100%;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(9, 9, 9, 0.2)), url(../Image/lukas-blazek-f-TWhXOrLiU-unsplash.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+.dishes h2 {
+     color: #fff;
+     font-family: 'Jacques Francois', serif;
+}
+
+.dishes .row .card img {
+     width: 100%;
+     height: 10.5em;
+}
+
+.dishes .row .card a {
+     color: var(--team-bag);
+     font-family: 'Roboto', sans-serif;
+     text-decoration: none;
+
+}
+
+.dishes .row .card button {
+     width: 8.5em;
+     height: 2.5em;
+     background-color: var(--team-bag);
+     color: #fff;
+     border-radius: 1.5em 0;
+
+}
+
+/* dishes */
+
+/* food */
+.food {
+     width: 100%;
+     background-image: url(../Image/blurry-gradient-haikei.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.food h4,
+h2 {
+     color: #000;
+
+}
+
+.food .food-menu {
+     width: 100%;
+     height: 100%;
+     margin: 0 auto;
+}
+
+.food .menu {
+     width: 30em;
+     height: 60%;
+     padding: 1.8em;
+     border-radius: 20px;
+     border: 1px solid #000;
+     background: #D9D9D9;
+}
+
+.food .menu i {
+     font-size: 0.5em;
+}
+
+.food .menu h3 {
+     color: var(--team-bag);
+}
+
+.menu .next {
+     width: 8.5em;
+     height: 2.5em;
+     margin: 0 auto;
+     background-color: var(--team-bag);
+     color: #fff;
+     border-radius: 1.5em 0;
+}
+
+.shap img {
+     width: 22.9em;
+     height: 100%;
+     padding-top: 2em;
+
+}
+
+/* food */
+
+/* galleruy */
+.item {
+     width: 65%;
+     margin: 0 auto;
+}
+
+.item button {
+     width: 9.5em;
+     height: 2.5em;
+     margin: 0 auto 0.9em;
+     background-color: var(--team-bag);
+     color: #fff;
+     border-radius: 1.5em 0;
+     transition: 0.5s;
+
+}
+
+.item button:hover {
+     background-color: none;
+     border: 1px solid var(--team-bag);
+}
+
+.item button:active {
+     background-color: #fff;
+     border: 1px solid #d9d9d9;
+     box-shadow: 2px 2px 20px #555;
+
+}
+
+.item .active {
+     background-color: #fff;
+     border: 1px solid #d9d9d9;
+     box-shadow: 2px 2px 20px #555;
+
+}
+
+.cetagory .card {
+     height: 24.5em;
+}
+
+.cetagory .card img {
+     width: 130px;
+     height: 130px;
+     margin: 1em auto;
+     border-radius: 50%;
+}
+
+.cetagory .card h2 a {
+     text-decoration: none;
+     color: var(--team-bag);
+
+}
+
+.cetagory .card button {
+     width: 7.5em;
+     height: 2.5em;
+     margin: 0 auto;
+     background-color: var(--team-bag);
+     color: #fff;
+     border-radius: 1.5em 0;
+     transition: 0.5s;
+}
+
+.cetagory .card button:active {
+     background-color: #fff;
+     border: 1px solid #d9d9d9;
+     box-shadow: 2px 2px 20px #555;
+}
+
+.cetagory .card .bx-heart {
+     text-align: right;
+     font-size: 1.5em;
+}
+
+/* galleruy */
+
+/* client */
+.client .card {
+     background-color: #f8f6f6;
+     margin-bottom: 2.5em;
+}
+
+.client .card img {
+     width: 7em;
+     height: 7em;
+     margin: 1em auto;
+     border-radius: 50%;
+}
+
+.client .card h2 a {
+     text-decoration: none;
+     color: var(--team-bag);
+}
+
+.client .card .star {
+     margin: 0;
+     height: 0.5em;
+}
+
+.star i {
+     color: rgb(255, 217, 2);
+}
+
+.client .card .bx-heart {
+     margin-top: 0;
+     text-align: right;
+}
+
+/* client */
+
+/* team */
+
+.team .card {
+     height: 23em;
+     transition: 0.5s ease-in-out;
+}
+
+.team .card:hover {
+     background-color: var(--team-bag);
+}
+
+.team .card:hover .dami-1 {
+     background-color: #Ffe560;
+}
+
+.team .card:hover a {
+     color: #fff;
+}
+
+.team .card:hover p {
+     color: #fff;
+}
+
+.team .card img {
+     width: 10em;
+     height: 13em;
+     margin: 1.5em auto 0;
+}
+
+.team .card .dami-1 {
+     width: 100%;
+     height: 0.1em;
+     background-color: var(--team-bag);
+}
+
+.team .card h2 a {
+     text-decoration: none;
+     color: var(--team-bag);
+}
+
+/* team */
+
+/* footer */
+.footer {
+     background-color: var(--team-bag);
+}
+
+.footer .card {
+     background-color: #e4e2e2;
+}
+
+.footer .card img {
+     width: 6em;
+     height: 6em;
+}
+
+.footer .card .social-media a {
+     background-color: #d9d9d9;
+     padding: 0.4em;
+     border-radius: 50%;
+     margin-right: 0.8em;
+     color: #000;
+}
+
+.footer .card .fa-location-dot {
+     color: red;
+}
+
+/* footer */
+.coppy {
+     background-color: var(--nav-bag);
+}
+
+/* Product details page */
+
+/* shot detials */
+
+.shot {
+     width: 100%;
+     height: 100%;
+     background-image: url(../Image/blurry-gradient-haikei.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.card {
+     background-color: #f7f5f5;
+}
+
+.others a {
+     color: #777;
+     text-decoration: none;
+     margin-bottom: 0.9em;
+     transition: 0.3s;
+}
+
+.others a:hover {
+     color: var(--team-bag);
+}
+
+.others a:active {
+     text-shadow: 1px 1px 20px #777;
+}
+
+.dami {
+     width: 100%;
+     height: 0.1em;
+     margin: 1em 0;
+     background-color: var(--nav-bag);
+}
+
+.shot h4 sub {
+     color: #777;
+     font-weight: 200;
+}
+
+.shot h6 {
+     font-weight: 400;
+     margin-left: 1em;
+}
+
+.shop-btn button {
+     margin-right: 0.1em;
+     height: 2.3em;
+     border-radius: 0.5em;
+     background-color: transparent;
+     border: 1px solid var(--nav-bag);
+     outline: none;
+     transition: 0.3s;
+}
+
+.shop-btn button:hover {
+     background-color: #388331;
+     color: #fff;
+}
+
+.shop-btn button:active {
+     box-shadow: 1px 1px 10px #999;
+}
+
+/* shot detials */
+
+/* details */
+
+.details p{
+     margin: 3em auto;
+   line-height: 2em;
+  text-align: justify;
+}
+
+/* details */
+/* ---------- Stard .peyment-sistam---------- */
+
+.peyment-sistam {
+     width: 100%;
+     height: 5em;
+     margin: 5em 0;
+     padding: 1.3em 0;
+     background-color: var(--nav-bag);
+}
+
+.cash {
+     width: 13.9em;
+     height: 2.5em;
+     padding: 0 0.9em;
+     background-color: #d9d9d9;
+     border-radius: 1.5em;
+     cursor: pointer;
+     align-items:center;
+}
+
+.cash img {
+     width: 2.5em;
+     height: 1.9em;
+     margin-right: 0.5em;
+}
+
+.cash p {
+     font-size: 1em;
+     font-weight: 550;
+     margin-top: 0.8em;
+     margin-right: 0.5em;
+}
+
+.pay {
+     width: 19em;
+     height: 2.5em;
+     margin-right: 1em;
+     align-items: center;
+}
+
+.pay p {
+     margin-top: 0.9em;
+     font-size: 1.2em;
+     color: #000;
+}
+
+.pay img {
+     width: 3em;
+     cursor: pointer;
+     margin-left: 0.5em;
+}
+
+/*---------- End .peyment-sistam---------- */
+
+
+/*---------- Stard .renk---------- */
+.all-star {
+     width: 100%;
+     margin: 1em 0 2em;
+}
+
+.star {
+     width: 35em;
+     margin: 0.5em 0 1em;
+     position: relative;
+}
+
+.bxs-star {
+     color: #FFD700;
+     font-size: 1.5em;
+}
+
+.bx-star {
+     color: #FFD700;
+     font-size: 1.5em;
+}
+
+.metat-1 {
+     width: 23.5em;
+     height: 1.5em;
+     margin-left: 1em;
+     background-color: #d9d9d9;
+     position: relative;
+}
+.progress-bar{
+background-color: var(--team-bag);
+color: #fff;
+}
+
+
+
+/*---------- End .renk---------- */
+
+
+/*---------- Stard .verified---------- */
+
+.customar{
+     margin-bottom: 1em;
+
+}
+
+.customar-name h3{
+     color: #999;
+}
+.customar-name span{
+     color: #222;
+     font-size: 1em;
+
+}
+
+.verified h2{
+     margin-bottom: 0.5em;
+}
+.verified p{
+     margin-bottom: 0.5em;
+     color: #555;
+     font-size: 1em;
+     line-height: 1.5em;
+}
+
+.like{
+     margin-bottom: 1em;
+     text-align: end;
+     text-decoration: none;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+}
+.like a{
+     color: #000;
+}
+
+
+
+/* Product details page */
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:400px) {
+     #navbarSupportedContent .dropdown-menu {
+          /* background-color: var(--team-bag); */
+     }
+
+     /* cover */
+     #carouselExampleFade .carousel-item img {
+          height: 50vh;
+     }
+
+     /* cover */
+
+     .row .view {
+          margin: 0 auto;
+     }
+
+     .specials {
+          margin: 0 auto 1.5em;
+
+     }
+
+     .food .menu {
+          width: 20em;
+     }
+
+     .menu button {
+          margin: 0 auto;
+     }
+
+     .item {
+          width: 100%;
+          height: 2em;
+          display: flex;
+          margin: 0 auto;
+
+     }
+
+     .item button {
+          width: 10.5em;
+          height: 3.5em;
+          margin-bottom: 2em;
+          font-size: 0.4em;
+     }
+
+     .cetagory {
+          margin-top: 1.5rem;
+     }
+
+     .shap img {
+          display: none;
+     }
+
+     .footer .continar .card img {
+          width: 2.5em;
+          height: 2.5em;
+     }
+
+     .shot .row .pro-cad {
+          margin: 1em auto;
+     }
+
+     .pro-cad .others a {
+          display: block;
+     }
+
+     .pro-cad .shot-dis h6 {
+          margin: 1em 0;
+          font-weight: 400;
+     }
+
+     .pro-cad button {
+          width: 8.5em;
+          margin-right: 1em;
+          background-color: #2D6628;
+          color: #fff;
+     }
+     .peyment-sistam{
+          height: 10em;
+     }
+     .cash,.pay{
+          margin: 1em auto;
+     }
+.progress-bar{
+     width: 100%;
+     margin: 0.9em 0.5em 0.9em 0;
+}
+
+.metat-1{
+     width: 18em;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:320px) {
+
+     /* cover */
+     #carouselExampleFade .carousel-item img {
+          height: 40vh;
+     }
+
+     /* cover */
+     .row .view {
+          margin: 0 auto;
+     }
+
+     .shap img {
+          display: none;
+     }
+}
+
+/* responsive */
